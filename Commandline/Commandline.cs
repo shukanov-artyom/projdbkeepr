@@ -1,3 +1,5 @@
+using System; 
+
 namespace projdbkeepr.CommandLine
 {
     public class ApplicationSettingsFactory
@@ -10,7 +12,7 @@ namespace projdbkeepr.CommandLine
 
         public ApplicationSettings Create()
         {
-            
+            throw new NotImplementedException("return new applicationSettings instance here");
         }
     } 
 }
